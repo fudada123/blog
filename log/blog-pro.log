@@ -1,0 +1,11 @@
+2019-06-17 16:33:21.541  INFO 14264 --- [restartedMain] com.fu.blog.BlogApplication              : Starting BlogApplication on DESKTOP-G9MU60M with PID 14264 (D:\BLOG\target\classes started by fudada in D:\BLOG)
+2019-06-17 16:33:21.544  INFO 14264 --- [restartedMain] com.fu.blog.BlogApplication              : The following profiles are active: pro
+2019-06-17 16:33:23.513  WARN 14264 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-06-17 16:33:24.421  WARN 14264 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-17 16:33:24.490  WARN 14264 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-06-17 16:33:24.705  INFO 14264 --- [restartedMain] com.fu.blog.BlogApplication              : Started BlogApplication in 3.704 seconds (JVM running for 4.542)
+2019-06-17 16:41:52.599  INFO 700 --- [restartedMain] com.fu.blog.BlogApplication              : Starting BlogApplication on DESKTOP-G9MU60M with PID 700 (D:\BLOG\target\classes started by fudada in D:\BLOG)
+2019-06-17 16:41:52.604  INFO 700 --- [restartedMain] com.fu.blog.BlogApplication              : The following profiles are active: pro
+2019-06-17 16:41:54.885  WARN 700 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-06-17 16:41:55.838  WARN 700 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-17 16:41:56.169  INFO 700 --- [restartedMain] com.fu.blog.BlogApplication              : Started BlogApplication in 4.147 seconds (JVM running for 5.005)
