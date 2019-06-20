@@ -36,6 +36,11 @@ public class TypeServiceImpl implements TypeService {
         return typeRespository.findById(id).get();
     }
 
+    @Override
+    public Type getTypeByName(String name) {
+        return typeRespository.findByName(name);
+    }
+
     @Transactional
     @Override
     public Page<Type> listType(Pageable pageable) {
@@ -59,4 +64,7 @@ public class TypeServiceImpl implements TypeService {
     public void deleteType(Long id) {
         typeRespository.deleteById(id);
     }
+
+
+
 }
